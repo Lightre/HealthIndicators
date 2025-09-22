@@ -1,5 +1,5 @@
 name: DamageIndicators
-version: '1.0'
+version: '1.1'
 main: com.lightre.damageIndicators.DamageIndicators
 api-version: '1.21'
 authors: [Lightre]
@@ -15,3 +15,6 @@ permissions:
   damageindicators.reload:
     description: Allows reloading the config file.
     default: op
+  damageindicators.help:
+    description: Allows viewing the plugin's help message.
+    default: true
