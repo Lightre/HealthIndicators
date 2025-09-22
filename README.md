@@ -64,3 +64,29 @@ indicator-duration-seconds: 2.0
 | `/hi help`     | Displays information about the plugin.                          |
 | `/hi reload`   | Reloads the plugin configuration without restarting the server. |
 | `/hi toggle`   | Toggle health indicators on/off.                                |
+
+---
+
+<p align="center"><b>🌟 Other Projects</b></p>
+
+<p align="center">
+        <a href="https://modrinth.com/modpack/boost-fps"><img
+                        src="https://cdn.modrinth.com/data/fM8HTxkM/a19f7d97459ead2a567ff1023f763b2591039541_96.webp"
+                        alt="BoostFPS" width="80" /></a>
+        <a href="https://modrinth.com/mod/colder-foliage"><img
+                        src="https://cdn.modrinth.com/data/AfD6LVG8/cd74e9bc58415cf1ccea5aa02b96ed8d0e1ed262.png"
+                        alt="Colder Foliage" width="80" /></a>
+        <a href="https://modrinth.com/resourcepack/no-foliage"><img
+                        src="https://cdn.modrinth.com/data/Ggp8JA4b/4abeffa738046b08641f88b54843c15950244ba7.png"
+                        alt="No Foliage" width="80" /></a>
+        <a href="https://modrinth.com/mod/warmer-foliage"><img
+                        src="https://cdn.modrinth.com/data/H6ktUOYw/2914aaaef26a107ae7e9415604b131204e20a127.png"
+                        alt="Warmer Foliage" width="80" /></a>
+        <a href="https://modrinth.com/project/essential-tweaks"><img
+                        src="https://cdn.modrinth.com/data/cached_images/b27b7b0b0525e9cec7d85a86998ff439f0e44a8c_0.webp"
+                        alt="Essential Tweaks" width="80" /></a>
+</p>
+
+<p align="center">
+  Explore more of my projects and enhance your Minecraft experience!
+</p>
