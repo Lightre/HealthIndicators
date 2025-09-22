@@ -1,4 +1,4 @@
-# ❤️ Damage Indicators ![GitHub Release](https://img.shields.io/github/v/release/Lightre/damage-indicators?color=%23fb5d62) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/boost-fps?color=%23fb5d62)
+# ❤️ Damage Indicators ![GitHub Release](https://img.shields.io/github/v/release/Lightre/damage-indicators?color=%23fb5d62) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/damageindicators?color=%23fb5d62)
 
 Damage Indicators is a lightweight Paper plugin that adds clear and compact health bars for players and mobs, letting you quickly see health at a glance.
 
