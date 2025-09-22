@@ -36,7 +36,7 @@ public final class HealthIndicators extends JavaPlugin {
         if (getConfig().isString("indicator-prefix")) {
             this.indicatorPrefix = ChatColor.translateAlternateColorCodes('&', getConfig().getString("indicator-prefix"));
         } else {
-            getLogger().warning("'indicator-prefix' is missing or invalid in the config! Default value '&c❤ ' will be used.");
+            getLogger().warning("'indicator-prefix' is missing or invalid in the config! Default value '&c❤ ' will be used");
             this.indicatorPrefix = "§c❤ ";
         }
 
