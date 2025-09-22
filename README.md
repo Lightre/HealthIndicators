@@ -1,6 +1,6 @@
 # ❤️ Damage Indicators ![GitHub Release](https://img.shields.io/github/v/release/Lightre/damage-indicators?color=%23fb5d62) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/damageindicators?color=%23fb5d62)
 
-Damage Indicators displays clear, real-time damage indicators above players and mobs, making it easy to see hits in PvP and PvE.
+**Damage Indicators** displays clear, real-time damage indicators above players and mobs, making it easy to see hits in PvP and PvE.
 
 ![---](https://i.imgur.com/LJD65XI.png)
 
