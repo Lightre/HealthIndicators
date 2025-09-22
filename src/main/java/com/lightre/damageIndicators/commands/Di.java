@@ -1,6 +1,6 @@
-package com.lightre.healthIndicators.commands;
+package com.lightre.damageIndicators.commands;
 
-import com.lightre.healthIndicators.HealthIndicators;
+import com.lightre.damageIndicators.DamageIndicators;
 import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
@@ -12,37 +12,37 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-public record Hi(HealthIndicators plugin) implements CommandExecutor, TabCompleter {
+public record Di(DamageIndicators plugin) implements CommandExecutor, TabCompleter {
 
     // onCommand
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command command, @NotNull String label, @NotNull String[] args) {
         if (args.length == 0) {
-            sender.sendMessage("§eUsage: /hi <toggle|reload>");
+            sender.sendMessage("§eUsage: /di <toggle|reload>");
             return true;
         }
         String subCommand = args[0].toLowerCase();
         if (subCommand.equals("toggle")) {
-            if (!sender.hasPermission("healthindicators.toggle")) {
+            if (!sender.hasPermission("damageindicators.toggle")) {
                 sender.sendMessage("§cYou do not have permission to use this command!");
                 return true;
             }
             boolean newState = !plugin.isIndicatorsEnabled();
             plugin.setIndicatorsEnabled(newState);
             if (newState) {
-                sender.sendMessage("§aHealth Indicators Enabled.");
+                sender.sendMessage("§aDamage Indicators Enabled.");
             } else {
-                sender.sendMessage("§cHealth Indicators Disabled.");
+                sender.sendMessage("§cDamage Indicators Disabled.");
             }
         } else if (subCommand.equals("reload")) {
-            if (!sender.hasPermission("healthindicators.reload")) {
+            if (!sender.hasPermission("damageindicators.reload")) {
                 sender.sendMessage("§cYou do not have permission to use this command!");
                 return true;
             }
             plugin.reloadConfiguration();
-            sender.sendMessage("§aHealthIndicators config file reloaded!");
+            sender.sendMessage("§aDamageIndicators config file reloaded!");
         } else {
-            sender.sendMessage("§cUsage: §7/hi §e<toggle|reload>");
+            sender.sendMessage("§cUsage: §7/di §e<toggle|reload>");
         }
         return true;
     }
@@ -54,10 +54,10 @@ public record Hi(HealthIndicators plugin) implements CommandExecutor, TabComplet
         if (args.length == 1) {
             List<String> completions = new ArrayList<>();
 
-            if (sender.hasPermission("healthindicators.toggle")) {
+            if (sender.hasPermission("damageindicators.toggle")) {
                 completions.add("toggle");
             }
-            if (sender.hasPermission("healthindicators.reload")) {
+            if (sender.hasPermission("damageindicators.reload")) {
                 completions.add("reload");
             }
 

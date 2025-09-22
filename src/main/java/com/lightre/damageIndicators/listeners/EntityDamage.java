@@ -1,6 +1,6 @@
-package com.lightre.healthIndicators.listeners;
+package com.lightre.damageIndicators.listeners;
 
-import com.lightre.healthIndicators.HealthIndicators;
+import com.lightre.damageIndicators.DamageIndicators;
 import net.kyori.adventure.text.Component;
 import org.bukkit.Location;
 import org.bukkit.entity.Display.Billboard;
@@ -15,7 +15,7 @@ import org.bukkit.util.Vector;
 
 import java.util.concurrent.ThreadLocalRandom;
 
-public record EntityDamage(HealthIndicators plugin) implements Listener {
+public record EntityDamage(DamageIndicators plugin) implements Listener {
 
     @EventHandler
     public void onEntityDamageEvent(EntityDamageEvent event) {

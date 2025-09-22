@@ -1,11 +1,11 @@
-package com.lightre.healthIndicators;
+package com.lightre.damageIndicators;
 
-import com.lightre.healthIndicators.commands.Hi;
-import com.lightre.healthIndicators.listeners.EntityDamage;
+import com.lightre.damageIndicators.commands.Di;
+import com.lightre.damageIndicators.listeners.EntityDamage;
 import org.bukkit.ChatColor;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public final class HealthIndicators extends JavaPlugin {
+public final class DamageIndicators extends JavaPlugin {
     private boolean indicatorsEnabled = true;
 
     private String indicatorPrefix;
@@ -17,13 +17,13 @@ public final class HealthIndicators extends JavaPlugin {
         saveDefaultConfig();
         loadConfigValues();
         getServer().getPluginManager().registerEvents(new EntityDamage(this), this);
-        getCommand("hi").setExecutor(new Hi(this));
-        getLogger().info("HealthIndicators enabled!");
+        getCommand("hi").setExecutor(new Di(this));
+        getLogger().info("DamageIndicators enabled!");
     }
 
     @Override
     public void onDisable() {
-        getLogger().info("HealthIndicators disabled!");
+        getLogger().info("DamageIndicators disabled!");
     }
 
     public void reloadConfiguration() {

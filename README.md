@@ -24,7 +24,7 @@ Health Indicators is a lightweight PaperMC plugin that adds clear and compact he
 Customize the indicators via the config file:
 
 ```yaml
-# HealthIndicators Plugin Config
+# DamageIndicators Plugin Config
 
 # Text to appear at the beginning of the damage indicator.
 # You can use color codes with '&'. (default: '&c❤ ')

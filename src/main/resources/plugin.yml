@@ -1,18 +1,17 @@
-name: HealthIndicators
+name: DamageIndicators
 version: '1.0'
-main: com.lightre.healthIndicators.HealthIndicators
+main: com.lightre.damageIndicators.DamageIndicators
 api-version: '1.21'
 authors: [Lightre]
 commands:
-  hi:
-    description: "Toggle health indicators."
-    aliases: [healthindicators]
-    permission: healthindicators.toggle
+  di:
+    description: "Damage indicators."
+    aliases: [damageindicators]
     permission-message: "You do not have permission to use this command"
 permissions:
-  healthindicators.toggle:
-    description: Allows toggling the health indicators.
+  damageindicators.toggle:
+    description: Allows toggling the damage indicators.
     default: op
-  healthindicators.reload:
+  damageindicators.reload:
     description: Allows reloading the config file.
     default: op
