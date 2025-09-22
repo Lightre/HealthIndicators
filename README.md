@@ -4,7 +4,7 @@ Health Indicators is a lightweight PaperMC plugin that adds clear and compact he
 
 ---
 
-## 📸 Preview
+## 📸 Cool Banner
 
 ![Damage Indicators Banner](https://cdn.modrinth.com/data/cached_images/95be6fc1b4fbf85158bc2c60d35f8abd1a14c5d7_0.webp)
 
@@ -64,6 +64,12 @@ indicator-duration-seconds: 2.0
 | `/hi help`     | Displays information about the plugin.                          |
 | `/hi reload`   | Reloads the plugin configuration without restarting the server. |
 | `/hi toggle`   | Toggle health indicators on/off.                                |
+
+---
+
+## 😢 Preview
+
+![Preview](https://cdn.modrinth.com/data/8B6f2zti/images/6d49ef3b329a021aa9113cf5f60494ffa32099e0.png)
 
 ---
 
