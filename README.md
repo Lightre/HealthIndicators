@@ -2,13 +2,13 @@
 
 Damage Indicators is a lightweight Paper plugin that adds clear and compact health bars for players and mobs, letting you quickly see health at a glance.
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## 📸 Cool Banner
 
 ![Damage Indicators Banner](https://cdn.modrinth.com/data/cached_images/95be6fc1b4fbf85158bc2c60d35f8abd1a14c5d7_0.webp)
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## ✨ Features
 
@@ -17,7 +17,7 @@ Damage Indicators is a lightweight Paper plugin that adds clear and compact heal
 - Minimalist and performance-friendly
 - Customizable via `.yml` configuration
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## ⚙️ Configuration
 
@@ -38,7 +38,7 @@ critical-indicator-prefix: '&e✯ '
 indicator-duration-seconds: 2.0
 ```
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## 🛠️ Installation
 
@@ -47,7 +47,7 @@ indicator-duration-seconds: 2.0
 3. Restart the server or use `/reload`.
 4. Customize `plugins/HealthIndicators/config.yml`.
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## 🎯 Usage
 
@@ -55,7 +55,7 @@ indicator-duration-seconds: 2.0
 * Config changes are adjustable via `.yml`, some require reload.
 * Optimized for both PvP and PvE servers.
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## ⚡ Commands
 
@@ -65,13 +65,13 @@ indicator-duration-seconds: 2.0
 | `/hi reload`   | Reloads the plugin configuration without restarting the server. |
 | `/hi toggle`   | Toggle damage indicators on/off.                                |
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 ## 😢 Preview
 
 ![Preview](https://cdn.modrinth.com/data/8B6f2zti/images/6d49ef3b329a021aa9113cf5f60494ffa32099e0.png)
 
----
+![---](https://i.imgur.com/LJD65XI.png)
 
 <p align="center"><b>🌟 Other Projects</b></p>
 
