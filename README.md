@@ -1,6 +1,6 @@
 # ❤️ Damage Indicators
 
-Health Indicators is a lightweight PaperMC plugin that adds clear and compact health bars for players and mobs, letting you quickly see health at a glance.
+Damage Indicators is a lightweight Paper plugin that adds clear and compact health bars for players and mobs, letting you quickly see health at a glance.
 
 ---
 
@@ -63,7 +63,7 @@ indicator-duration-seconds: 2.0
 | -------------- | --------------------------------------------------------------- |
 | `/hi help`     | Displays information about the plugin.                          |
 | `/hi reload`   | Reloads the plugin configuration without restarting the server. |
-| `/hi toggle`   | Toggle health indicators on/off.                                |
+| `/hi toggle`   | Toggle damage indicators on/off.                                |
 
 ---
 
