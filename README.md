@@ -19,7 +19,7 @@ Health Indicators is a lightweight PaperMC plugin that adds clear and compact he
 
 ---
 
-## 🛠️ Configuration
+## ⚙️ Configuration
 
 Customize the indicators via the config file:
 
