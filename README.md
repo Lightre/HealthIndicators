@@ -1,11 +1,10 @@
 # ❤️ Damage Indicators ![GitHub Release](https://img.shields.io/github/v/release/Lightre/damage-indicators?color=%23fb5d62) ![Modrinth Downloads](https://img.shields.io/modrinth/dt/damageindicators?color=%23fb5d62)
 
-Damage Indicators is a lightweight Paper plugin that adds clear and compact health bars for players and mobs, letting you quickly see health at a glance.
+Damage Indicators displays clear, real-time damage indicators above players and mobs, making it easy to see hits in PvP and PvE.
 
 ![---](https://i.imgur.com/LJD65XI.png)
 
 ## 📸 Cool Banner
-
 
 ![Damage Indicators Banner](https://cdn.modrinth.com/data/cached_images/95be6fc1b4fbf85158bc2c60d35f8abd1a14c5d7_0.webp)
 
@@ -46,13 +45,13 @@ indicator-duration-seconds: 2.0
 1. Download the plugin `.jar` file.
 2. Place it into your server's `plugins` folder.
 3. Restart the server or use `/reload`.
-4. Customize `plugins/HealthIndicators/config.yml`.
+4. Customize `plugins/DamageIndicators/config.yml`.
 
 ![---](https://i.imgur.com/LJD65XI.png)
 
 ## 🎯 Usage
 
-* Health bars for players and mobs are automatically active.
+* Damage indicators for players and mobs are automatically active.
 * Config changes are adjustable via `.yml`, some require reload.
 * Optimized for both PvP and PvE servers.
 
@@ -60,15 +59,15 @@ indicator-duration-seconds: 2.0
 
 ## ⚡ Commands
 
-| Command        | Description                                                     |
-| -------------- | --------------------------------------------------------------- |
-| `/hi help`     | Displays information about the plugin.                          |
-| `/hi reload`   | Reloads the plugin configuration without restarting the server. |
-| `/hi toggle`   | Toggle damage indicators on/off.                                |
+| Command      | Description                                                     |
+|--------------| --------------------------------------------------------------- |
+| `/di help`   | Displays information about the plugin.                          |
+| `/di reload` | Reloads the plugin configuration without restarting the server. |
+| `/di toggle` | Toggle damage indicators on/off.                                |
 
 ![---](https://i.imgur.com/LJD65XI.png)
 
-## 😢 Preview
+## 😎 Preview
 
 ![Preview](https://cdn.modrinth.com/data/8B6f2zti/images/6d49ef3b329a021aa9113cf5f60494ffa32099e0.png)
 
