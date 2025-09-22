@@ -17,7 +17,7 @@ public final class DamageIndicators extends JavaPlugin {
         saveDefaultConfig();
         loadConfigValues();
         getServer().getPluginManager().registerEvents(new EntityDamage(this), this);
-        getCommand("hi").setExecutor(new Di(this));
+        getCommand("di").setExecutor(new Di(this));
         getLogger().info("DamageIndicators enabled!");
     }
 
