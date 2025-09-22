@@ -4,7 +4,7 @@ Damage Indicators is a lightweight Paper plugin that adds clear and compact heal
 
 ![---](https://i.imgur.com/LJD65XI.png)
 
-## 📸 Cool Banner
+## 📸 Cool Banner ![GitHub Release](https://img.shields.io/github/v/release/Lightre/damage-indicators)
 
 ![Damage Indicators Banner](https://cdn.modrinth.com/data/cached_images/95be6fc1b4fbf85158bc2c60d35f8abd1a14c5d7_0.webp)
 
