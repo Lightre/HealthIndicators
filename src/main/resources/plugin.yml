@@ -1,0 +1,18 @@
+name: HealthIndicators
+version: '1.0'
+main: com.lightre.healthIndicators.HealthIndicators
+api-version: '1.21'
+authors: [Lightre]
+commands:
+  hi:
+    description: "Toggle health indicators."
+    aliases: [healthindicators]
+    permission: healthindicators.toggle
+    permission-message: "You do not have permission to use this command"
+permissions:
+  healthindicators.toggle:
+    description: Allows toggling the health indicators.
+    default: op
+  healthindicators.reload:
+    description: Allows reloading the config file.
+    default: op
