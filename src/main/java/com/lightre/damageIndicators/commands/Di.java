@@ -29,12 +29,19 @@ public record Di(DamageIndicators plugin) implements CommandExecutor, TabComplet
                 sender.sendMessage("§cYou do not have permission to use this command!");
                 return true;
             }
-            boolean newState = !plugin.isIndicatorsEnabled();
-            plugin.setIndicatorsEnabled(newState);
+
+            boolean currentState = plugin.getConfig().getBoolean("enabled");
+
+            boolean newState = !currentState;
+
+            plugin.getConfig().set("enabled", newState);
+            plugin.saveConfig();
+            plugin.reloadConfiguration();
+
             if (newState) {
-                sender.sendMessage("§aDamage Indicators Enabled.");
+                sender.sendMessage("§aDamage Indicators have been enabled.");
             } else {
-                sender.sendMessage("§cDamage Indicators Disabled.");
+                sender.sendMessage("§cDamage Indicators have been disabled.");
             }
         } else if (subCommand.equals("reload")) {
             if (!sender.hasPermission("damageindicators.reload")) {

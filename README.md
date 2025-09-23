@@ -2,13 +2,7 @@
 
 **Damage Indicators** displays clear, real-time damage indicators above players and mobs, making it easy to see hits in PvP and PvE.
 
-![---](https://i.imgur.com/LJD65XI.png)
-
-## 📸 Cool Banner
-
 ![Damage Indicators Banner](https://cdn.modrinth.com/data/cached_images/95be6fc1b4fbf85158bc2c60d35f8abd1a14c5d7_0.webp)
-
-![---](https://i.imgur.com/LJD65XI.png)
 
 ## ✨ Features
 
@@ -23,8 +17,19 @@
 
 Customize the indicators via the config file:
 
+
+<details>
+<summary>config.yml</summary>
+
 ```yaml
-# DamageIndicators Plugin Config
+# -------------------------------------------------- #
+#               DamageIndicators Config              #
+# -------------------------------------------------- #
+
+# Master switch for the plugin.
+# If set to false, no indicators will be shown.
+# You can also change this setting with the `/di toggle` command. (default: true)
+enabled: true
 
 # Text to appear at the beginning of the damage indicator.
 # You can use color codes with '&'. (default: '&c❤ ')
@@ -37,6 +42,10 @@ critical-indicator-prefix: '&e✯ '
 # You have to use decimal (double) values (default: 2.0)
 indicator-duration-seconds: 2.0
 ```
+
+</details>
+
+
 
 ![---](https://i.imgur.com/LJD65XI.png)
 
@@ -95,4 +104,7 @@ indicator-duration-seconds: 2.0
 
 <p align="center">
   Explore more of my projects and enhance your Minecraft experience!
+</p>
+<p align="center">
+  — Made by Lightre
 </p>
