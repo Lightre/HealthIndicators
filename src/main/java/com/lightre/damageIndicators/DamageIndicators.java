@@ -6,12 +6,16 @@ import org.bukkit.ChatColor;
 import org.bukkit.event.HandlerList;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.List;
+import java.util.ArrayList;
+
 public final class DamageIndicators extends JavaPlugin {
     private boolean indicatorsEnabled;
 
     private String indicatorPrefix;
     private String criticalIndicatorPrefix;
     private long indicatorDurationTicks;
+    private List<String> disabledWorldsList;
 
     @Override
     public void onEnable() {
@@ -65,6 +69,14 @@ public final class DamageIndicators extends JavaPlugin {
             getLogger().warning("'indicator-duration-seconds' is missing or invalid in the config! Default value '2.0' will be used.");
             this.indicatorDurationTicks = 40L;
         }
+
+        this.disabledWorldsList = getConfig().getStringList("disabled-worlds");
+        if (!disabledWorldsList.isEmpty()) {
+            getLogger().info("Disabled worlds loaded: " + String.join(", ", disabledWorldsList));
+        }
+    }
+    public List<String> getDisabledWorldsList() {
+        return disabledWorldsList;
     }
     public String getCriticalIndicatorPrefix() { return criticalIndicatorPrefix; }
     public String getIndicatorPrefix() { return indicatorPrefix; }

@@ -19,6 +19,12 @@ public record EntityDamage(DamageIndicators plugin) implements Listener {
 
     @EventHandler
     public void onEntityDamageEvent(EntityDamageEvent event) {
+        String worldName = event.getEntity().getWorld().getName();
+
+        if (plugin.getDisabledWorldsList().contains(worldName)) {
+            return;
+        }
+
         if (!plugin.isIndicatorsEnabled() || event.getFinalDamage() < 0.1) {
             return;
         }
