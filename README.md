@@ -41,6 +41,12 @@ critical-indicator-prefix: '&e✯ '
 # Time the damage indicator stays on screen (in secs)
 # You have to use decimal (double) values (default: 2.0)
 indicator-duration-seconds: 2.0
+
+# World Blacklist
+# List the names of the worlds where you want to disable damage indicators.
+disabled-worlds:
+# - "world_lobby"
+# - "towny"
 ```
 
 </details>
