@@ -1,0 +1,20 @@
+name: DamageIndicators
+version: '1.2'
+main: com.lightre.damageIndicators.DamageIndicators
+api-version: '1.21'
+authors: [Lightre]
+commands:
+  di:
+    description: "Damage indicators."
+    aliases: [damageindicators]
+    permission-message: "You do not have permission to use this command"
+permissions:
+  damageindicators.toggle:
+    description: Allows toggling the damage indicators.
+    default: op
+  damageindicators.reload:
+    description: Allows reloading the config file.
+    default: op
+  damageindicators.help:
+    description: Allows viewing the plugin's help message.
+    default: true

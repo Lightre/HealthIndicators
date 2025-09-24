@@ -1,0 +1,19 @@
+# -------------------------------------------------- #
+#               DamageIndicators Config              #
+# -------------------------------------------------- #
+
+# Master switch for the plugin.
+# If set to false, no indicators will be shown.
+# You can also change this setting with the `/di toggle` command. (default: true)
+enabled: true
+
+# Text to appear at the beginning of the damage indicator.
+# You can use color codes with '&'. (default: '&c❤ ')
+indicator-prefix: '&c❤ '
+
+# Special prefix that pops up when a crit lands. (default: '&e✯ ')
+critical-indicator-prefix: '&e✯ '
+
+# Time the damage indicator stays on screen (in secs)
+# You have to use decimal (double) values (default: 2.0)
+indicator-duration-seconds: 2.0
