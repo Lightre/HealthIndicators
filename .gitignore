@@ -23,7 +23,7 @@ atlassian-ide-plugin.xml
 *.ctxt
 
 # Package Files #
-# *.jar //REMOVEEEEEEEEEEEEEEEEEEEEEE
+# *.jar //REMOVEEEEEEEEEEEEEEEEEEEEE
 *.war
 *.nar
 *.ear
