@@ -29,6 +29,6 @@ jobs:
       - name: Upload build artifact
         uses: actions/upload-artifact@v4
         with:
-          # Artifact
+          # Artifact's
           name: DamageIndicators-JAR
           path: build/libs/*.jar
